@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (orientation:portrait){
+	#global-footer{
+		position:fixed;
+	}
+}
+
+#smcs_image{
+	height: 28px;
+	vertical-align: middle;
+}
