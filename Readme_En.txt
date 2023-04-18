@@ -1,10 +1,10 @@
 ﻿************************************************************
-      Star webPRNT SDK  -  Ver 1.8.0
+      Star webPRNT SDK  -  Ver 1.9.0
          Readme_En.txt             Star Micronics Co., Ltd.
 ************************************************************
 
  1. Overview
- 2. Ver 1.8.0 Changes
+ 2. Ver 1.9.0 Changes
  3. Contents
  4. Scope
  5. Remarks
@@ -27,24 +27,22 @@
   Users Manual: https://www.star-m.jp/starwebprnt-oml.html
 
 =======================
- 2. Ver 1.8.0 Changes
+ 2. Ver 1.9.0 Changes
 =======================
   
   [SDK]
-   - Added Melody Speaker (mC-Sound) sounding function in Star webPRNT browser.   
+   - Added gap sensor control function.
 
   [User's Manual] 
-   - Added TSP100IV. 
-   - Added a reference for Melody Speaker (mC-Sound) sounding function. 
-   - The request elements of the receipt upload function related to Star Micronics
-     Cloud Service was removed. 
+   - Added mC-Label3. 
+   - Added a reference for gap sensor control function.
 
 
 =============
  3. Contents
 =============
 
-  StarWebPRNT_WebContents_V1.8.0
+  StarWebPRNT_WebContents_V1.9.0
   |
   |- Readme_En.txt                       // Release Note(English)
   |- Readme_Jp.txt                       // Release Note(Japanese)
@@ -74,6 +72,7 @@
        mPOP             (Ver1.0 or later)    (*1)
        mC-Print2        (Ethernet/Bluetooth/USB: Ver1.0 or later)    (*1)
        mC-Print3        (Ethernet/Bluetooth/USB: Ver1.0 or later)    (*1)
+       mC-Label3        (Ethernet/Bluetooth: Ver1.0 or later)        (*1)
        TSP100IV         (Ethernet/USB: Ver1.0 or later)    (*2)
        SP700            (Ethernet: Ver3.0 or later)
 
@@ -104,6 +103,14 @@
 ====================
  7. Release History
 ====================
+
+ Ver 1.9.0
+ 04/10/2023   : [SDK]
+                 - Added gap sensor control function.
+
+                [User's Manual]
+                 - Added mC-Label3.
+                 - Added a reference for gap sensor control function.
 
  Ver 1.8.0
  10/29/2021   : [SDK] 

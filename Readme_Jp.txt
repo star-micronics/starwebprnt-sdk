@@ -1,10 +1,10 @@
 ************************************************************
-      Star webPRNT SDK  -  Ver 1.8.0
+      Star webPRNT SDK  -  Ver 1.9.0
          Readme_Jp.txt                  スター精密（株）
 ************************************************************
 
  1. 概要
- 2. Ver 1.8.0 についての変更点
+ 2. Ver 1.9.0 についての変更点
  3. 内容
  4. 適用
  5. 制約事項
@@ -27,23 +27,22 @@
   Users Manual: https://www.star-m.jp/starwebprnt-oml.html
 
 ================================
- 2. Ver 1.8.0 についての変更点
+ 2. Ver 1.9.0 についての変更点
 ================================
 
   [SDK]
-   - Star webPRNTブラウザーでメロディースピーカー(mC-Sound)鳴動機能をサポート
+   - ギャップセンサー制御をサポート
   
   [User's Manual]
-   - TSP100IVを追加
-   - メロディースピーカー(mC-Sound)鳴動機能に関するリファレンスを追加
-   - スター精密クラウドサービスに関連するレシートアップロード機能の送信エレメントを削除
+   - mC-Label3を追加
+   - ギャップセンサー制御に関するリファレンスを追加
 
 
 ==========
  3. 内容
 ==========
 
-  StarWebPRNT_WebContents_V1.8.0
+  StarWebPRNT_WebContents_V1.9.0
   |
   |- Readme_En.txt                       // リリースノート(英語)
   |- Readme_Jp.txt                       // リリースノート(日本語)
@@ -72,6 +71,7 @@
        mPOP             (F/W Ver1.0以上)    (*1)
        mC-Print2        (Ethernet/Bluetooth/USB利用時:F/W Ver1.0以上)    (*1)
        mC-Print3        (Ethernet/Bluetooth/USB利用時:F/W Ver1.0以上)    (*1)
+       mC-Label3        (Ethernet/Bluetooth利用時:F/W Ver1.0以上)        (*1)
        TSP100IV         (Ethernet/USB利用時:F/W Ver1.0以上)              (*2)
 
        SP700            (Ethernet利用時: F/W Ver3.0以上)
@@ -106,7 +106,14 @@
 =============
  7. 更新履歴
 =============
-
+ Ver 1.9.0
+  2023/04/10 : [SDK]
+                - ギャップセンサー制御をサポート
+  
+               [User's Manual]
+                - mC-Label3を追加
+                - ギャップセンサー制御に関するリファレンスを追加
+                
  Ver 1.8.0
   2021/10/29 : [SDK]
                  - Star webPRNTブラウザーでメロディースピーカー(mC-Sound)鳴動機能をサポート
