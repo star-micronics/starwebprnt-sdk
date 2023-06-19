@@ -29,12 +29,12 @@
 =======================
  2. Ver 1.9.0 Changes
 =======================
-  
+
   [SDK]
    - Added gap sensor control function.
 
-  [User's Manual] 
-   - Added mC-Label3. 
+  [User's Manual]
+   - Added mC-Label3.
    - Added a reference for gap sensor control function.
 
 
@@ -56,24 +56,25 @@
 =================
 
   [Printer Model]
-       SM-S210I         (Ver2.4 or later)    (*1)
-       SM-S220I         (Ver2.0 or later)    (*1)
-       SM-S230I         (Ver1.0 or later)    (*1)
-       SM-T300I         (Ver2.4 or later)    (*1)
-       SM-T400I         (Ver2.4 or later)    (*1)
-       SM-L200          (Ver1.0 or later)    (*1)
-       SM-L300          (Ver1.0 or later)    (*1)
+       SM-S210I         (Ver2.4 or later)  (*1)
+       SM-S220I         (Ver2.0 or later)  (*1)
+       SM-S230I         (Ver1.0 or later)  (*1)
+       SM-T300I         (Ver2.4 or later)  (*1)
+       SM-T400I         (Ver2.4 or later)  (*1)
+       SM-L200          (Ver1.0 or later)  (*1)
+       SM-L300          (Ver1.0 or later)  (*1)
 
        FVP10            (Ethernet: Ver1.5 or later, Bluetooth: Ver2.0 or later)  (*1)
        TSP650II         (Ethernet: Ver1.2 or later, Bluetooth: Ver1.0 or later)  (*1)
-       TSP650IISK       (Ver1.0 or later)    (*1)
+       TSP650IISK       (Ver1.0 or later)  (*1)
        TSP700II         (Ethernet: Ver4.1 or later, Bluetooth: Ver5.0 or later)  (*1)
        TSP800II         (Ethernet: Ver1.6 or later, Bluetooth: Ver2.0 or later)  (*1)
-       mPOP             (Ver1.0 or later)    (*1)
-       mC-Print2        (Ethernet/Bluetooth/USB: Ver1.0 or later)    (*1)
-       mC-Print3        (Ethernet/Bluetooth/USB: Ver1.0 or later)    (*1)
-       mC-Label3        (Ethernet/Bluetooth: Ver1.0 or later)        (*1)
-       TSP100IV         (Ethernet/USB: Ver1.0 or later)    (*2)
+       mPOP             (Ver1.0 or later)  (*1)
+       mC-Print2        (Ethernet/Bluetooth/USB: Ver1.0 or later)  (*1)
+       mC-Print3        (Ethernet/Bluetooth/USB: Ver1.0 or later)  (*1)
+       mC-Label3        (Bluetooth: Ver1.0 or later)  (*1)
+                        (USB: Ver1.1 or later)        (*2)
+       TSP100IV         (Ethernet/USB: Ver1.0 or later)  (*2)
        SP700            (Ethernet: Ver3.0 or later)
 
        <Notification of Bluetooth/USB I/F>
@@ -105,6 +106,9 @@
 ====================
 
  Ver 1.9.0
+ 06/19/2023   : [Readme]
+                 - Updated support interface for mC-Label3.
+
  04/10/2023   : [SDK]
                  - Added gap sensor control function.
 
@@ -113,14 +117,14 @@
                  - Added a reference for gap sensor control function.
 
  Ver 1.8.0
- 10/29/2021   : [SDK] 
-                 - Added Melody Speaker (mC-Sound) sounding function in Star webPRNT browser.   
+ 10/29/2021   : [SDK]
+                 - Added Melody Speaker (mC-Sound) sounding function in Star webPRNT browser.
 
-                [User's Manual] 
-                 - Added TSP100IV. 
-                 - Added a reference for Melody Speaker (mC-Sound) sounding function. 
+                [User's Manual]
+                 - Added TSP100IV.
+                 - Added a reference for Melody Speaker (mC-Sound) sounding function.
                  - The request elements of the receipt upload function related to Star Micronics
-                   Cloud Service was removed. 
+                   Cloud Service was removed.
 
  Ver 1.7.0
  06/17/2020   : [SDK]
@@ -158,7 +162,7 @@
                  - Change API reference for black mark function.
                  - Added SM-L300.
 
- Ver 1.3.3   
+ Ver 1.3.3
  03/14/2017   : [SDK]
                  - Added setup manual for Star Micronics Cloud.
 
@@ -169,18 +173,18 @@
                  - Added IFBD-HI01X/HI02X to the supported interface card.
                  - Corrected misprints of the supported F/W version.
 
- Ver 1.3.2   
+ Ver 1.3.2
  12/26/2016   : [SDK]
                  - "WebPRNTTrader.js" have been updated to accommodate changing security requirements.
 
- Ver 1.3.1   
+ Ver 1.3.1
  09/30/2016   : [SDK]
                  - Added annotation when selecting codepage attribute in text elements.
 
                 [User's Manual]
                  - Added annotation when selecting codepage attribute in text elements.
 
- Ver 1.3.0   
+ Ver 1.3.0
  09/01/2016   : [SDK]
                  - Added status monitoring function.
                  - Added character code support in text element.
@@ -189,7 +193,7 @@
                  - Added reference related with BCR status monitoring.
                  - Added reference related with character code.
 
- Ver 1.2.1   
+ Ver 1.2.1
  02/08/2016   : [SDK]
                  - Modified default setting of BM.
                    With WebPRNT Browser, enabled to use BM, setting by MSW.
@@ -198,14 +202,14 @@
                  - Revise reference of API related with BM.
                  - Added reference related with StarPRNT mode.
 
- Ver 1.2.0   
+ Ver 1.2.0
  11/06/2015   : [SDK]
                 - Support black mark function.
 
                 [User's Manual]
                 - Added API reference for black mark function.
 
- Ver 1.1.0   
+ Ver 1.1.0
  02/20/2015   : [SDK]
                 - Add the function that the display optimization of the web contents.
                 - Fix some issues when it shows on Android WebPRNT Browser.
