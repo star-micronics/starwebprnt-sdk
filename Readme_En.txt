@@ -4,13 +4,12 @@
 ************************************************************
 
  1. Overview
- 2. Ver 1.9.0 Changes
+ 2. Changes
  3. Contents
  4. Scope
  5. Remarks
  6. Copyright
  7. Release History
-
 
 =============
  1. Overview
@@ -27,22 +26,17 @@
   Users Manual: https://www.star-m.jp/starwebprnt-oml.html
 
 =======================
- 2. Ver 1.9.0 Changes
+ 2. Changes
 =======================
 
-  [SDK]
-   - Added gap sensor control function.
-
-  [User's Manual]
-   - Added mC-Label3.
-   - Added a reference for gap sensor control function.
-
+  [Readme]
+   - Added TSP100IV SK.
 
 =============
  3. Contents
 =============
 
-  StarWebPRNT_WebContents_V1.9.0
+  StarWebPRNT_WebContents_V1.9.0_20230907
   |
   |- Readme_En.txt                       // Release Note(English)
   |- Readme_Jp.txt                       // Release Note(Japanese)
@@ -75,6 +69,7 @@
        mC-Label3        (Bluetooth: Ver1.0 or later)  (*1)
                         (USB: Ver1.1 or later)        (*2)
        TSP100IV         (Ethernet/USB: Ver1.0 or later)  (*2)
+       TSP100IV SK      (USB: Ver2.0 or later)  (*2)
        SP700            (Ethernet: Ver3.0 or later)
 
        <Notification of Bluetooth/USB I/F>
@@ -100,12 +95,14 @@
 
   Copyright 2013 Star Micronics Co., Ltd. All rights reserved.
 
-
 ====================
  7. Release History
 ====================
 
  Ver 1.9.0
+ 09/07/2023   : [Readme]
+                 - Added TSP100IV SK.
+
  06/19/2023   : [Readme]
                  - Updated support interface for mC-Label3.
 
