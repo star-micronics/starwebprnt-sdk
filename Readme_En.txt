@@ -1,5 +1,5 @@
 ﻿************************************************************
-      Star webPRNT SDK  -  Ver 1.9.0
+      Star webPRNT SDK  -  Ver 1.10.0
          Readme_En.txt             Star Micronics Co., Ltd.
 ************************************************************
 
@@ -29,14 +29,20 @@
  2. Changes
 =======================
 
+  [SDK]
+   - createTextElement
+       Added base text magnification function.
+   - createBarcodeElement
+       Added an option for width.
+
   [Readme]
-   - Added TSP100IV SK.
+   - Added mC-Label2
 
 =============
  3. Contents
 =============
 
-  StarWebPRNT_WebContents_V1.9.0_20230907
+  StarWebPRNT_WebContents_V1.10.0
   |
   |- Readme_En.txt                       // Release Note(English)
   |- Readme_Jp.txt                       // Release Note(Japanese)
@@ -66,6 +72,7 @@
        mPOP             (Ver1.0 or later)  (*1)
        mC-Print2        (Ethernet/Bluetooth/USB: Ver1.0 or later)  (*1)
        mC-Print3        (Ethernet/Bluetooth/USB: Ver1.0 or later)  (*1)
+       mC-Label2        (Ethernet/Bluetooth/USB: Ver1.0 or later)  (*1)
        mC-Label3        (Bluetooth: Ver1.0 or later)  (*1)
                         (USB: Ver1.1 or later)        (*2)
        TSP100IV         (Ethernet/USB: Ver1.0 or later)  (*2)
@@ -98,6 +105,16 @@
 ====================
  7. Release History
 ====================
+
+ Ver 1.10.0
+ 05/19/2025   : [SDK]
+                 - createTextElement
+                   Added base text magnification function.
+                 - createBarcodeElement
+                   Added an option for width.
+
+                [Readme]
+                 - Added mC-Label2
 
  Ver 1.9.0
  09/07/2023   : [Readme]

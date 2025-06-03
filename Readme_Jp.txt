@@ -1,5 +1,5 @@
 ************************************************************
-      Star webPRNT SDK  -  Ver 1.9.0
+      Star webPRNT SDK  -  Ver 1.10.0
          Readme_Jp.txt                  スター精密（株）
 ************************************************************
 
@@ -29,14 +29,21 @@
  2. 変更点
 ================================
 
+  [SDK]
+   - createTextElement
+       基本テキスト拡大をサポート
+   - createBarcodeElement
+       widthの選択肢を追加
+   - 
+
   [Readme]
-   - TSP100IV SKを追加
+   - mC-Label2を追加
 
 ==========
  3. 内容
 ==========
 
-  StarWebPRNT_WebContents_V1.9.0_20230907
+  StarWebPRNT_WebContents_V1.10.0
   |
   |- Readme_En.txt                       // リリースノート(英語)
   |- Readme_Jp.txt                       // リリースノート(日本語)
@@ -65,6 +72,7 @@
        mPOP             (F/W Ver1.0以上)  (*1)
        mC-Print2        (Ethernet/Bluetooth/USB利用時: F/W Ver1.0以上)  (*1)
        mC-Print3        (Ethernet/Bluetooth/USB利用時: F/W Ver1.0以上)  (*1)
+       mC-Label2        (Ethernet/Bluetooth/USB利用時: F/W Ver1.0以上)  (*1)
        mC-Label3        (Bluetooth利用時: F/W Ver1.0以上)  (*1)
                         (USB利用時: F/W Ver1.1以上)        (*2)
        TSP100IV         (Ethernet/USB利用時: F/W Ver1.0以上)  (*2)
@@ -100,6 +108,16 @@
 =============
  7. 更新履歴
 =============
+
+ Ver 1.10.0
+  2025/05/19 : [SDK]
+                - createTextElement
+                    基本テキスト拡大をサポート
+                - createBarcodeElement
+                    widthの選択肢を追加
+
+               [Readme]
+                - mC-Label2を追加
 
  Ver 1.9.0
   2023/09/07 : [Readme]
